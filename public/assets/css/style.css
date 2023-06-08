@@ -1,0 +1,59 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 600px;
+    padding: 5px;
+  }
+
+th{
+    width: 50px;
+    height: 48px;
+    
+}
+
+tr.top{
+    background-color: black;
+    color: white;
+    
+}
+
+a {
+    color: rgb(88, 65, 121);
+    text-decoration: none;
+}
+div .sup {
+    color: rgb(88, 65, 121);
+    text-decoration: none;
+}
+
+.delete{
+    margin: 50px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.show{
+    margin: 50px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.search {
+    display: flex;
+    margin: 45px;
+}
+.search button{
+    border: none;
+    background-color: blue;
+    color: white;
+    
+        /* width: 400px;
+    height: 20px; */
+}
+.search input{
+    width: 400px;
+    height: 20px;
+}
